@@ -9,7 +9,7 @@ $result->execute();
 $statement = $result->fetchAll();
 
 $query1 = "
-SELECT * FROM carsinfo where remove_status=0 
+SELECT * FROM carsinfo where remove_status=0 group by manufacturer
 ";
 
 $result1 = $connect->prepare($query1);
