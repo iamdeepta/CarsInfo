@@ -26,7 +26,7 @@ A web application that can manage information of cars
 7. Go to localhost/phpmyadmin from your browser
 8. Create a new database named cars and then import cars.sql file into that database
 9. Type localhost/carsinfo in your browser, where carsinfo is the project file name
-10. Hit Enter. That's it!
+10. Hit Enter and you are good to go!
 
 # Live Demo
 Here is the url link of the project demo: www.liveextension.ezyro.com
