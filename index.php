@@ -1,7 +1,7 @@
 <?php include 'db.php';
 
 $query = "
-SELECT * FROM carsinfo where remove_status=0 
+SELECT * FROM carsinfo where remove_status=0 group by manufacturer
 ";
 
 $result = $connect->prepare($query);
