@@ -1,4 +1,106 @@
 <style>
+  
+  @viewport{
+    zoom: 1.0;
+    width : extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom:1.0;
+}
+
+
+  @media only screen and (min-width: 320px){
+        
+      #piechart {
+
+        height : 240px !important;
+        width: 670px !important;
+      }
+
+      #myChart{
+
+        height: 210px !important;
+        width: 320px !important;
+        margin-left: -30px !important;
+      }
+      
+
+        }
+
+        @media only screen and (min-width: 480px){
+
+          #piechart {
+
+        height : 240px !important;
+        width: 670px !important;
+      }
+
+      #myChart{
+
+        height: 210px !important;
+        width: 320px !important;
+        margin-left: -30px !important;
+      }
+      
+          
+
+        }
+
+        @media only screen and (min-width: 767px){
+
+        #piechart {
+
+        height : 240px !important;
+        width: 670px !important;
+      }
+
+      #myChart{
+
+        height: 210px !important;
+        width: 320px !important;
+        margin-left: -30px !important;
+      }
+        
+
+        }
+
+        @media only screen and (min-width: 991px){
+
+          #piechart {
+
+        height : 350px !important;
+        width: 900px !important;
+      }
+
+      #myChart{
+
+        height: 300px !important;
+        width: 600px !important;
+        margin-left: 100px !important;
+      }
+          
+
+        }
+
+        @media only screen and (min-width: 1200px){
+         #piechart {
+
+        height : 350px !important;
+        width: 900px !important;
+      }
+
+      #myChart{
+
+        height: 300px !important;
+        width: 600px !important;
+        margin-left: 100px !important;
+      }
+          
+
+        }
+  
 * {
   box-sizing: border-box;
 }
