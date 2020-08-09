@@ -37,6 +37,7 @@ foreach($statement as $stmt){
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cars Information</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
     
@@ -118,7 +119,7 @@ foreach($statement as $stmt){
         </div>
         </div>
 
-        <div class="container" id="piechart" style="height: 350px;width: 720px;">
+        <div class="container" id="piechart">
     <canvas id="myChart"></canvas>
   </div>
 
