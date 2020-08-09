@@ -29,4 +29,4 @@ A web application that can manage information of cars
 10. Hit Enter and you are good to go!
 
 # Live Demo
-Here is the url link of the project demo: www.liveextension.ezyro.com
+Here is the url link of the project demo: www.livextension.ezyro.com
